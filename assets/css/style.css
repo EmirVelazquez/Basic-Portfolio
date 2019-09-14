@@ -1,0 +1,49 @@
+#backVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
+h1 {
+    background-color: #4aaaa5;
+    color:white
+}
+
+
+#myName {
+    float: left;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+li {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    float: right;
+    border-right: 1px solid #bbbbbb;
+    color: white;
+    font-style: bold;
+}
+
+li a{
+    display: block;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
