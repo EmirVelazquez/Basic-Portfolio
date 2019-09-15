@@ -1,5 +1,10 @@
+.headerBox{
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    height: 60px;
+}
 
-header {
+h1 {
     background-color: #4aaaa5;
     color:#ffffff;
     float: left;
@@ -8,11 +13,24 @@ header {
     font-size: 22px;
     text-align: center;
     font-weight: bold;
-    padding: 15px 15px;
+    padding: 15px;
+    padding-bottom: 6px;
     vertical-align: middle;
     border-bottom: none;
+    height: 100%;
+    width: 270px;
+    margin-bottom: 0;
 }
 
+.mainBox{
+    clear: both;
+    overflow: auto;
+    margin: 0 auto;
+    background-image: ;
+    height: 600px;
+    width: 100%;
+    border-bottom: 5px solid #4aaaa5
+}
 
 #profilePic {
     float: left;
@@ -22,6 +40,7 @@ header {
     border-radius: 8px;
     max-width: 100%;
     height: auto;
+    clear: both;
 }
 
 nav {
@@ -33,7 +52,6 @@ nav {
 
 li {
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    background-color: #4aaaa5;
     float: right;
     border-right: 1px solid #bbbbbb;
     color: white;
