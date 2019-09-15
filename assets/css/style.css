@@ -1,23 +1,27 @@
-#backVideo {
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
 
-
-
-
-h1 {
+header {
     background-color: #4aaaa5;
-    color:white
+    color:#ffffff;
+    float: left;
+    margin-left: 125px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 15px;
+    vertical-align: middle;
+    border-bottom: none;
 }
 
 
-#myName {
+#profilePic {
     float: left;
+    margin-right: 20px;
+    width:150px;
+    height:200px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
 
 nav {
