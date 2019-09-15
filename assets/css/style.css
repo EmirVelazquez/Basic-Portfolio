@@ -100,37 +100,37 @@ body {
     margin-bottom: 30px;
 }
 
-#about-profile-img {
+#profileImg {
     margin-right: 30px;
     width: 250px;
     float: left;
 }
 
-.portfolio-piece-left {
+.portfolioLeft {
     float: left;
     margin-bottom: 30px;
     margin-right: 30px;
     height: 187px;
 }
 
-.portfolio-piece-middle {
+.portfolioMiddle {
     float: left;
     margin-bottom: 30px;
     height: 187px;
 }
 
-.portfolio-piece-right {
+.portfolioRight {
     float: left;
     margin-bottom: 30px;
     margin-left: 30px;
     height: 187px;
 }
 
-.portfolio-image {
+.portfolioImg {
     width: 280px;
 }
 
-.portfolio-label {
+.portfolioLabel {
     position: relative;
     top: -62px;
     width: 280;
@@ -197,7 +197,7 @@ footer {
     background-color: #666666;
 } 
 
-#copyright-text {
+#Copyright {
     position: relative;
     bottom: 5px;
     margin-top: 30px;
