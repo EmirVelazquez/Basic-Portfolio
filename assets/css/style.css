@@ -23,7 +23,9 @@ p {
 }
 
 a {
+    color:grey;
     text-decoration: none;
+    text-align: center;
 }
 
 header {
@@ -214,3 +216,9 @@ footer {
     min-height: 100%;
     z-index: -1;
   }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
