@@ -1,132 +1,75 @@
 <!DOCTYPE html>
 <html lan = "en-us">
-    <head>
-        <!-- Again don't know what this does -->
-        <meta charset = "utf-8">
-        <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <!-- Linking HTML with CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- Responsive Design for Devices -->
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-        
-        <video autoplay muted loop id="myVideo">
-                <source src="assets/images/hd0535.mov" type="video/mp4">
-        </video>
-
-    </head>
-
-        <header>
     
-            <nav class="navBar">
-
-                <div id="navHome">
-                    <a href="index.html">
-                        <h1>Emir Velazquez</h1>
-                    </a>
-                </div>
+<head>
+    <!-- Again don't know what this does -->
+    <meta charset = "utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Linking HTML with CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Responsive Design for Devices -->
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         
-                <div id="navContact">
-                    <a href="contact.html">
-                        <p>Contact</p>
-                    </a>
-                </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="assets/images/hd0535.mov" type="video/mp4">
+    </video>
+</head>
 
-                <div class="navDivide"></div>
-        
-                <div id="navPortfolio">
-                    <a href="portfolio.html">
-                        <p>Portfolio</p>
-                    </a>
-                </div>
-
-                <div class="navDivide"></div>
-        
-                <div id="navAbout">
-                    <a href="index.html">
-                        <p>About</p>
-                    </a>
-                </div>
-
+<body>
+    
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Emir Velazquez</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
 
-        </header>
-    <body>
-
-        <div class="contentBox">
-
-            <h2 class="contentHeading">Portfolio</h2>
-
-               <div class="portfolioLeft">
-                   <a href="#">
-
-                       <img class="portfolioImg" src="assets/images/stock1.jpg" alt="Random 1">
-                       
-                       <div class="portfolioLabel">
-                            Random 1
-                       </div>
-
-                   </a>
-               </div>
-
-               <div class="portfolioMiddle">
-                    <a href="#">
- 
-                        <img class="portfolioImg" src="assets/images/stock2.jpg" alt="Random 2">
-                        
-                        <div class="portfolioLabel">
-                            Random 2
-                        </div>
- 
-                    </a>
-                </div>
-
-                <div class="portfolioRight">
-                    <a href="#">
-    
-                        <img class="portfolioImg" src="assets/images/stock3.jpg" alt="Random 3">
-                        
-                        <div class="portfolioLabel">
-                            Random 3
-                        </div>
-    
-                    </a>
-                </div>
-
-                <div class="portfolioLeft">
-                    <a href="#">
-
-                        <img class="portfolioImg" src="assets/images/stock4.jpg" alt="Random 4">
-                        
-                        <div class="portfolioLabel">
-                            Random 4
-                        </div>
-
-                    </a>
-                </div>
-
-                <div class="portfolioMiddle">
-                    <a href="#">
-    
-                        <img class="portfolioImg" src="assets/images/stock5.jpg" alt="Random 5">
-                        
-                        <div class="portfolioLabel">
-                                Random 5
-                        </div> 
-    
-                    </a>
-                </div>
-
         </div>
+    </header>
 
-    </body>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+        
+
+            <div class="work">
+                <img src="assets/images/stock1.jpg" alt="Random 1">
+
+                <h3>Placeholder 1</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/stock2.jpg" alt="Random 2">
+                   
+                <h3>Placeholder 2</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/stock3.jpg" alt="Random 3">
+                        
+                <h3>Placeholder 3</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/stock4.jpg" alt="Random 4">
+                        
+                <h3>Placeholder 4</h3>
+            </div>
+            <div class="work">
+                <img src="assets/images/stock5.jpg" alt="Random 5">
+                
+                <h3>Placeholder 5</h3>
+            </div>
+
+        </section>
+
+    </div>
 
     <footer>
-
-        <div id="Copyright">
-            <p id="textCopyright">Copyright ©</p>
+        <div class="container">
+            Copyright ©
         </div>
-    
     </footer>
+</body>
 
 </html>
